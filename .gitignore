@@ -1,0 +1,7 @@
+# Local preview tooling
+.claude/
+
+# OS clutter
+Thumbs.db
+desktop.ini
+.DS_Store

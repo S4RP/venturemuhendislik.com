@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projelerimiz | Venture Mühendislik</title>
+  <meta name="description" content="Konut, ofis, otel, sağlık, endüstriyel ve ticari yapılarda mekanik tesisat proje ve uygulama referanslarımız.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="logo" aria-label="Venture Mühendislik ana sayfa">
+      <img class="logo__mark" src="assets/img/logo-mark.svg" alt="" width="48" height="42">
+      <span class="logo__text"><span class="logo__name">VENTURE</span><span class="logo__tag">MÜHENDİSLİK</span></span>
+    </a>
+    <nav class="nav" id="site-nav" aria-label="Ana menü">
+      <a href="index.html">ANA SAYFA</a>
+      <a href="hakkimizda.html">HAKKIMIZDA</a>
+      <a href="hizmetlerimiz.html">HİZMETLERİMİZ</a>
+      <a href="projelerimiz.html" aria-current="page">PROJELER</a>
+      <a href="ekibimiz.html">EKİBİMİZ</a>
+      <a href="iletisim.html">İLETİŞİM</a>
+    </nav>
+    <a class="header-phone" href="tel:+905332949792"><svg class="ic"><use href="#i-phone"/></svg><span>0 533 294 97 92</span></a>
+    <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Menü"><svg class="ic"><use href="#i-menu"/></svg></button>
+  </div>
+</header>
+
+<main>
+  <section class="hero hero--page">
+    <div class="hero__media"><img src="assets/img/hero-projects.jpg" alt="Mekanik tesisat sistemlerinin 3B modeli ve proje paftaları"></div>
+    <div class="container">
+      <div class="hero__content">
+        <h1 class="hero__title">Projelerimiz</h1>
+        <span class="rule-tri"></span>
+        <p class="hero__lead">Farklı ölçek ve kullanım türlerindeki yapılarda mekanik tesisat proje ve uygulama çözümleri üretiyor; güvenli, verimli ve sürdürülebilir sistemler tasarlıyor ve hayata geçiriyoruz.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:16px">
+    <div class="container">
+      <div class="filters" data-filters role="group" aria-label="Proje kategorileri">
+        <button class="filter is-active" type="button" data-filter="tumu" aria-pressed="true"><svg class="ic"><use href="#i-grid"/></svg>Tüm Projeler</button>
+        <button class="filter" type="button" data-filter="konut" aria-pressed="false"><svg class="ic"><use href="#i-residential"/></svg>Konut<br>Projeleri</button>
+        <button class="filter" type="button" data-filter="ofis" aria-pressed="false"><svg class="ic"><use href="#i-office"/></svg>İş Merkezleri &amp;<br>Ofisler</button>
+        <button class="filter" type="button" data-filter="otel" aria-pressed="false"><svg class="ic"><use href="#i-hotel"/></svg>Otel &amp; Turizm<br>Yapıları</button>
+        <button class="filter" type="button" data-filter="saglik" aria-pressed="false"><svg class="ic"><use href="#i-hospital"/></svg>Sağlık<br>Yapıları</button>
+        <button class="filter" type="button" data-filter="endustriyel" aria-pressed="false"><svg class="ic"><use href="#i-factory"/></svg>Endüstriyel<br>Tesisler</button>
+        <button class="filter" type="button" data-filter="ticari" aria-pressed="false"><svg class="ic"><use href="#i-cart"/></svg>Ticari Yapılar<br>&amp; Mağazalar</button>
+      </div>
+
+      <div class="projects">
+        <article class="project reveal" data-category="konut">
+          <div class="project__img"><img src="assets/img/proj-konut.jpg" alt="Konut projesi" loading="lazy"></div>
+          <div class="project__body">
+            <h3>Konut Projesi</h3>
+            <span class="rule"></span>
+            <p class="project__loc"><svg class="ic"><use href="#i-pin"/></svg>Ataşehir / İstanbul</p>
+            <p class="project__scope">Mekanik Tesisat Proje ve Uygulama</p>
+          </div>
+        </article>
+        <article class="project reveal" data-category="ofis">
+          <div class="project__img"><img src="assets/img/proj-ofis.jpg" alt="Ofis binası" loading="lazy"></div>
+          <div class="project__body">
+            <h3>Ofis Binası</h3>
+            <span class="rule"></span>
+            <p class="project__loc"><svg class="ic"><use href="#i-pin"/></svg>Kozyatağı / İstanbul</p>
+            <p class="project__scope">Mekanik Tesisat Proje ve Uygulama</p>
+          </div>
+        </article>
+        <article class="project reveal" data-category="otel">
+          <div class="project__img"><img src="assets/img/proj-otel.jpg" alt="Otel projesi" loading="lazy"></div>
+          <div class="project__body">
+            <h3>Otel Projesi</h3>
+            <span class="rule"></span>
+            <p class="project__loc"><svg class="ic"><use href="#i-pin"/></svg>Antalya</p>
+            <p class="project__scope">Mekanik Tesisat Proje ve Uygulama</p>
+          </div>
+        </article>
+        <article class="project reveal" data-category="saglik">
+          <div class="project__img"><img src="assets/img/proj-hastane.jpg" alt="Hastane projesi" loading="lazy"></div>
+          <div class="project__body">
+            <h3>Hastane Projesi</h3>
+            <span class="rule"></span>
+            <p class="project__loc"><svg class="ic"><use href="#i-pin"/></svg>Kartal / İstanbul</p>
+            <p class="project__scope">Mekanik Tesisat Proje ve Uygulama</p>
+          </div>
+        </article>
+        <article class="project reveal" data-category="endustriyel">
+          <div class="project__img"><img src="assets/img/proj-endustriyel.jpg" alt="Endüstriyel tesis" loading="lazy"></div>
+          <div class="project__body">
+            <h3>Endüstriyel Tesis</h3>
+            <span class="rule"></span>
+            <p class="project__loc"><svg class="ic"><use href="#i-pin"/></svg>Gebze / Kocaeli</p>
+            <p class="project__scope">Mekanik Tesisat Proje ve Uygulama</p>
+          </div>
+        </article>
+        <article class="project reveal" data-category="ticari">
+          <div class="project__img"><img src="assets/img/proj-magaza.jpg" alt="Mağaza projesi" loading="lazy"></div>
+          <div class="project__body">
+            <h3>Mağaza Projesi</h3>
+            <span class="rule"></span>
+            <p class="project__loc"><svg class="ic"><use href="#i-pin"/></svg>İstanbul</p>
+            <p class="project__scope">Mekanik Tesisat Proje ve Uygulama</p>
+          </div>
+        </article>
+      </div>
+      <p class="projects-empty" hidden>Bu kategoride henüz yayınlanmış proje bulunmuyor.</p>
+
+      <div class="partner reveal">
+        <div class="partner__col">
+          <div class="partner__icon"><svg class="ic"><use href="#i-cliplist"/></svg></div>
+          <div>
+            <h3>Projeniz için doğru çözüm ortağı</h3>
+            <p>Proje ve uygulama ihtiyaçlarınız için uzman ekibimizle görüşmekten memnuniyet duyarız.</p>
+          </div>
+          <a href="iletisim.html" class="btn btn--outline-gold btn--sm">Bize ulaşın <svg class="ic"><use href="#i-arrow"/></svg></a>
+        </div>
+        <div class="partner__col">
+          <svg class="ic"><use href="#i-doc"/></svg>
+          <div>
+            <h3>Referans Listemiz</h3>
+            <p>Tamamladığımız projelerin detaylı referans listesi için <a href="iletisim.html" style="color:var(--gold-dark);font-weight:600">bizimle iletişime geçin</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-main">
+    <div>
+      <a href="index.html" class="logo logo--stacked logo--light logo--footer" aria-label="Venture Mühendislik">
+        <img class="logo__mark" src="assets/img/logo-mark-light.svg" alt="" width="64" height="56">
+        <span class="logo__text"><span class="logo__name">VENTURE</span><span class="logo__tag">MÜHENDİSLİK</span></span>
+      </a>
+    </div>
+    <div>
+      <p>Mekanik tesisat projelendirme, mühendislik ve uygulama alanlarında güvenilir, verimli ve sürdürülebilir çözümler sunuyoruz.</p>
+      <nav class="footer-nav" aria-label="Alt menü">
+        <a href="hakkimizda.html">Hakkımızda</a>
+        <a href="hizmetlerimiz.html">Hizmetlerimiz</a>
+        <a href="projelerimiz.html">Projeler</a>
+        <a href="ekibimiz.html">Ekibimiz</a>
+        <a href="iletisim.html">İletişim</a>
+      </nav>
+    </div>
+    <div>
+      <ul class="footer-list">
+        <li><svg class="ic"><use href="#i-pin"/></svg><span>İçerenköy Mah.<br>Çayır Cad. No: 11<br>Kat: 8 D: 23<br>Ataşehir / İstanbul</span></li>
+      </ul>
+    </div>
+    <div>
+      <ul class="footer-list">
+        <li><svg class="ic"><use href="#i-mail"/></svg><a href="mailto:info@venturemuhendislik.com">info@venturemuhendislik.com</a></li>
+        <li><svg class="ic"><use href="#i-globe"/></svg><a href="https://www.venturemuhendislik.com">www.venturemuhendislik.com</a></li>
+        <li><svg class="ic"><use href="#i-phone"/></svg><a href="tel:+905332949792">0 533 294 97 92</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">© <span data-year>2026</span> Venture Mühendislik. Tüm hakları saklıdır.</div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
